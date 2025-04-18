@@ -11,7 +11,7 @@ public class EvenNumber {
 		System.out.println("Before filter numbers in list : "+numbers);
 		
 		// By java 7
-		List<Integer> l1 = new ArrayList<Integer>();
+		List<Integer> l1 = new ArrayList<>();
 		for(Integer num : numbers) {
 			if(num%2 == 0) {
 				l1.add(num);
